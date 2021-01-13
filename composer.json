@@ -1,0 +1,23 @@
+{
+    "name": "w337886915/laravellogin",
+    "description": "laravel",
+    "authors": [
+        {
+            "name": "w337886915",
+            "email": "wangheng19851019@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "w337886915\\app\\": "src/"
+        }
+    },
+    "extra":{
+        "laravel": {
+            "providers": [
+               "w337886915\\app\\Providers"
+            ]
+        }
+    }
+}
