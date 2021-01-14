@@ -16,7 +16,7 @@
     "extra":{
         "laravel": {
             "providers": [
-               "w337886915\\app\\Providers"
+               "w337886915\\app\\Providers\\LaravelLoginServiceProvider"
             ]
         }
     }

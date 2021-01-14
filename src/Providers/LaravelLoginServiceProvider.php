@@ -14,6 +14,7 @@ class LaravelLoginServiceProvider extends ServiceProvider
     public function register()
     {
         //
+
     }
 
     /**
@@ -24,5 +25,6 @@ class LaravelLoginServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $this->loadRoutesFrom(dirname(dirname(__DIR__)).'routes/web.php');
     }
 }
